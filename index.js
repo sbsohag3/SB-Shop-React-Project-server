@@ -220,8 +220,8 @@ app.get("/", (req, res) => {
 app.get("/hero", (req, res) => {
   res.send("Hello hero!");
 });
-app.get("/render", (req, res) => {
-  res.send("Hello render!");
+app.get("/vercel", (req, res) => {
+  res.send("Hello vercel!");
 });
 
 app.listen(port, () => {
